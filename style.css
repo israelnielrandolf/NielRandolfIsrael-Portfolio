@@ -760,10 +760,10 @@ footer ul li a {
 }
 
 .contact-container{
-    display:flex;
-    justify-content:center;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
     gap:1.5rem;
-    flex-wrap:nowrap;
+    width:100%;
 }
 
 .contact-card {
